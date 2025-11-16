@@ -88,7 +88,7 @@ function LocationCard({ location }: { location: Location }) {
   );
 }
 
-export default function Malang() {
+export default function Bali () {
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -101,7 +101,7 @@ export default function Malang() {
           <div className="absolute inset-0 bg-black/50"></div>
           <div className="relative z-10 text-center text-white">
             <p className="text-lg md:text-xl font-medium mb-2">Jelajahi Keindahan</p>
-            <h1 className="text-5xl md:text-6xl font-bold mb-4">Malang</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-4">Bali</h1>
             <p className="text-lg md:text-xl max-w-2xl mx-auto px-4">Pulau Rempah dengan Keindahan Laut yang Memukau</p>
           </div>
         </div>
