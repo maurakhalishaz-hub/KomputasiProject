@@ -15,11 +15,11 @@ interface Location {
 const foodAndHangout: Location[] = [
   {
     id: 1,
-    name: 'Wailela Cafe and Resto',
-    address: 'Rumah Tiga, Ambon',
-    mapsLink: 'https://maps.app.goo.gl/nx4Rgcr4EHxJRz9v5',
-    description: 'Cafe & resto populer dengan menu lokal dan suasana hangat, buka hingga malam.',
-    image: 'https://wailelacafeandrestoambon.shop/public/media/wailelacafeandrestoambon-shop/4.jpg',
+    name: 'Hummingbird Eatery & Space',
+    address: Jl. Progo No.16, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40115,
+    mapsLink: 'https://share.google/kZPTJaPvP8LhafOTJ',
+    description: ' Tempat cozy dengan suasana hangat, pas buat ngopi santai dan nongkrong bareng teman.',
+    image: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyQNz1zRwHcTnjMxFpyQomxMxh_3KoYCd0_9B3744mygZHyqG0c92Q0ss252aFsqwgPaymhSngkiPPZ3UE1YgxRwDtb0jaWsOiFam07GdufSdPvfFimy7cQ4wohWd9I02CxDfTi=s1360-w1360-h1020-rw',
   },
 ];
 
