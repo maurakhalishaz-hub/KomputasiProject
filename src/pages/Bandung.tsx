@@ -177,7 +177,7 @@ export default function Bandung () {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <p className="text-sm font-semibold burnt-cocoa uppercase tracking-wide mb-2">Jelajahi Alam Malang</p>
+            <p className="text-sm font-semibold burnt-cocoa uppercase tracking-wide mb-2">Jelajahi Alam Bandung</p>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Rekomendasi Tempat Wisata
             </h2>
