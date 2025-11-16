@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  @apply bg-white;
+}
+
+.burnt-cocoa {
+  color: #6C4332;
+}
+
+.burnt-cocoa-bg {
+  background-color: #6C4332;
+}
+
+.burnt-cocoa-border {
+  border-color: #6C4332;
+}
+
+.burnt-cocoa-hover:hover {
+  background-color: #6C4332;
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
