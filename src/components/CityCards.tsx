@@ -11,7 +11,7 @@ const cities = [
     id: 2,
     name: 'Malang',
     description: 'Historic City of East Java',
-    image: 'https://images.pexels.com/photos/1770560/pexels-photo-1770560.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://img.inews.co.id/media/1200/files/inews_new/2023/06/06/Julukan_kota_malang.jpg',
   },
   {
     id: 3,
