@@ -27,7 +27,7 @@ const foodAndHangout: Location[] = [
     address: 'Jl. Ranca Kendal Luhur No.8 Dago, Ciburial, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat 40191',
     mapsLink: 'https://share.google/v4O1a41zX8d6WXsgh',
     description: 'Ruang kreatif yang memadukan seni dan kopi, cocok untuk nongkrong santai atau cari inspirasi.',
-    image: : 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz27qZxYN58ViYvHoqn5ylz7oy1xb6EX0I4AKQSTqI4a7IO5oTYeRWxvmCPoy_uPNttlsR8D6eZhqPOuaETnuW06jA3XHuIdKf5deSquotVtiyY2NrIajtmAVUJUmLb3N743Zm1hA=s1360-w1360-h1020-rw',
+    image: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz27qZxYN58ViYvHoqn5ylz7oy1xb6EX0I4AKQSTqI4a7IO5oTYeRWxvmCPoy_uPNttlsR8D6eZhqPOuaETnuW06jA3XHuIdKf5deSquotVtiyY2NrIajtmAVUJUmLb3N743Zm1hA=s1360-w1360-h1020-rw',
   },
   {
     id: 3,
