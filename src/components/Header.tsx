@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Menu, X, MapPin } from 'lucide-react';
 
 type HeaderProps = {
-  onNavigate: (page: 'home' | 'maluku' | 'malang' | 'bali' | 'bandung') => void;
+  onNavigate: (page: 'home' | 'bandung' | 'malang' | 'maluku' | 'bali') => void;
 };
 
 export default function Header({ onNavigate }: HeaderProps) {
