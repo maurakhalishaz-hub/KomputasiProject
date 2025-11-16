@@ -1,17 +1,5 @@
-import { useState } from 'react';
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import CityCards from './components/CityCards';
-import TopListTable from './components/TopListTable';
-import FeatureSection from './components/FeatureSection';
-import Footer from './components/Footer';
-import Maluku from './pages/Maluku';
-import Bali from './pages/Bali';
-import Bandung from './pages/Bandung';
-import Malang from './pages/Malang';
-
 function App() {
-  const [currentPage, setCurrentPage] = useState<'home' | 'bandung' | 'malang' | 'maluku' | 'bali'>('home');
+  const [currentPage, setCurrentPage] = useState<'home' | 'maluku' | 'malang' | 'bali' | 'bandung'>('home');
 
   if (currentPage === 'maluku') return <Maluku />;
   if (currentPage === 'malang') return <Malang />;
@@ -20,7 +8,9 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white">
-      <Header />
+      {/* kirim fungsi navigasi ke Header */}
+      <Header onNavigate={(page) => setCurrentPage(page)} />
+
       <HeroSection />
       <CityCards
         onCityClick={(city) => {
@@ -36,5 +26,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
