@@ -11,10 +11,12 @@ import Bandung from './pages/Bandung';
 import Malang from './pages/Malang';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState<'home' | 'maluku'>('home');
+  const [currentPage, setCurrentPage] = useState<'home' | 'maluku' | 'malang' | 'bali' | 'bandung'>('home');
 
-  if (currentPage === 'maluku') {
-    return <Maluku />;
+  if (currentPage === 'maluku') return <Maluku />;
+if (currentPage === 'malang') return <Malang />;
+if (currentPage === 'bali') return <Bali />;
+if (currentPage === 'bandung') return <Bandung />;
   }
 
   return (
@@ -22,8 +24,8 @@ function App() {
       <Header />
       <HeroSection />
       <CityCards onCityClick={(city) => {
-        if (city === 'Maluku') {
-          setCurrentPage('maluku');
+  setCurrentPage(city.toLowerCase() as typeof currentPage);
+}} />
         }
       }} />
       <TopListTable />
