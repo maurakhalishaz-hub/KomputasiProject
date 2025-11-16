@@ -88,7 +88,7 @@ function LocationCard({ location }: { location: Location }) {
   );
 }
 
-export default function Maluku() {
+export default function Malang() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -101,7 +101,7 @@ export default function Maluku() {
           <div className="absolute inset-0 bg-black/50"></div>
           <div className="relative z-10 text-center text-white">
             <p className="text-lg md:text-xl font-medium mb-2">Jelajahi Keindahan</p>
-            <h1 className="text-5xl md:text-6xl font-bold mb-4">Maluku</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-4">Malang</h1>
             <p className="text-lg md:text-xl max-w-2xl mx-auto px-4">Pulau Rempah dengan Keindahan Laut yang Memukau</p>
           </div>
         </div>
@@ -110,12 +110,12 @@ export default function Maluku() {
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <p className="text-sm font-semibold burnt-cocoa uppercase tracking-wide mb-2">Jelajahi Kuliner Maluku</p>
+            <p className="text-sm font-semibold burnt-cocoa uppercase tracking-wide mb-2">Jelajahi Kuliner Malang</p>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Rekomendasi Tempat Makan & Hangout
             </h2>
             <p className="text-gray-600 text-lg">
-              Cari tempat terbaik untuk menikmati kuliner lokal dan bersantai dengan suasana yang nyaman di Maluku.
+              Cari tempat terbaik untuk menikmati kuliner lokal dan bersantai dengan suasana yang nyaman di Malang.
             </p>
           </div>
 
@@ -130,12 +130,12 @@ export default function Maluku() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <p className="text-sm font-semibold burnt-cocoa uppercase tracking-wide mb-2">Jelajahi Alam Maluku</p>
+            <p className="text-sm font-semibold burnt-cocoa uppercase tracking-wide mb-2">Jelajahi Alam Malang</p>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Rekomendasi Tempat Wisata
             </h2>
             <p className="text-gray-600 text-lg">
-              Jangan lewatkan destinasi wisata paling populer dan menakjubkan di Maluku dengan keindahan alam yang tak terlupakan.
+              Jangan lewatkan destinasi wisata paling populer dan menakjubkan di Malang dengan keindahan alam yang tak terlupakan.
             </p>
           </div>
 
