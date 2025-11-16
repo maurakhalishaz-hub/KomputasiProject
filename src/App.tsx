@@ -14,10 +14,10 @@ function App() {
       <HeroSection />
       <CityCards
         onCityClick={(city) => {
-          if (city === 'Maluku') setCurrentPage('maluku');
-          else if (city === 'Malang') setCurrentPage('malang');
-          else if (city === 'Bali') setCurrentPage('bali');
-          else if (city === 'Bandung') setCurrentPage('bandung');
+          if (city === 'Maluku') setCurrentPage('Maluku');
+          else if (city === 'Malang') setCurrentPage('Malang');
+          else if (city === 'Bali') setCurrentPage('Bali');
+          else if (city === 'Bandung') setCurrentPage('Bandung');
         }}
       />
       <TopListTable />
