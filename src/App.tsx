@@ -1,5 +1,5 @@
 function App() {
-  const [currentPage, setCurrentPage] = useState<'home' | 'maluku' | 'malang' | 'bali' | 'bandung'>('home');
+  const [currentPage, setCurrentPage] = useState<'home' | 'bandung' | 'malang' | 'maluku' | 'bali'>('home');
 
   if (currentPage === 'maluku') return <Maluku />;
   if (currentPage === 'malang') return <Malang />;
