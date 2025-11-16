@@ -23,7 +23,9 @@ if (currentPage === 'bandung') return <Bandung />;
     <div className="min-h-screen bg-white">
       <Header />
       <HeroSection />
-     <CityCards onCityClick={(city) => { if (city === 'Maluku') { setCurrentPage('maluku');
+     <CityCards onCityClick={(city) => {
+        if (city === 'Maluku') {
+          setCurrentPage('maluku');
         }
       }} />
       <TopListTable />
