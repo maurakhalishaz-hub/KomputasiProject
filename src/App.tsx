@@ -37,25 +37,4 @@ function App() {
   );
 }
 
-import { useRef } from 'react';
-
-function Home() {
-  const topListRef = useRef<HTMLDivElement>(null);
-
-  return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      <HeroSection onExploreClick={() => {
-        topListRef.current?.scrollIntoView({ behavior: 'smooth' });
-      }} />
-      <CityCards />
-      <div ref={topListRef}>
-        <TopListTable />
-      </div>
-      <FeatureSection />
-      <Footer />
-    </div>
-  );
-}
-
 export default App;
