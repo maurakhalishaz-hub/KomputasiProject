@@ -3,15 +3,102 @@ import { MapPin, DollarSign, Clock } from 'lucide-react';
 const tableData = [
   {
     kota: 'Bandung',
-    data: [],
+    data: [
+      {
+        kategori: 'Kuliner/Hangout',
+        nama: 'Hummingbird Eatery & Space',
+        alamat: 'Jl. Progo No.16, Citarum, Kota Bandung',
+        harga: '50k – 100k',
+        deskripsi: 'Tempat cozy dengan suasana hangat dan cocok untuk ngopi santai dan hangout bareng teman',
+      },
+      {
+        kategori: 'Kuliner/Hangout',
+        nama: 'Ruang Lapang',
+        alamat: 'Greenforest Resort, Parongpong, Jawa Barat',
+        harga: '75k – 150k',
+        deskripsi: 'Cafe dengan ruang terbuka dan suasana lapang, cocok untuk ngopi santai atau kumpul bareng teman',
+      },
+      {
+        kategori: 'Wisata',
+        nama: 'Dago Dreampark',
+        alamat: 'Jl. Dago Giri No 2.2, Lembang, Jawa Barat',
+        harga: '90k',
+        deskripsi: 'Wisata alam dengan berbagai wahana dan pemandangan hijau yang asri',
+      },
+      {
+        kategori: 'Wisata',
+        nama: 'Farm House Susu Lembang',
+        alamat: 'Jl. Raya Lembang No.108, Lembang, Bandung',
+        harga: '35k',
+        deskripsi: 'Taman wisata bernuansa pedesaan Eropa dengan aneka spot foto unik"
+      },
+    ],
   },
   {
     kota: 'Malang',
-    data: [],
+    data: [
+      {
+        kategori: 'Kuliner/Hangout',
+        nama: 'Pasar Klojen',
+        alamat: 'Jl. Cokroaminoto, Klojen, Malang',
+        harga: '10k – 25k',
+        deskripsi: 'Kuliner lengkap dan jajanan hingga makanan berat',
+      },
+      {
+        kategori: 'Kuliner/Hangout',
+        nama: 'Bakso Cak Man',
+        alamat: 'Jl. Semeru No.24, Klojen, Malang',
+        harga: '15k – 30k',
+        deskripsi: 'Bakso legendaris dengan sistem self-service',
+      },
+      {
+        kategori: 'Wisata',
+        nama: 'Kampoeng Heritage Kajoetangan',
+        alamat: 'Jl. Basuki Rahmad Gg. 4, Klojen, Malang',
+        harga: '5k',
+        deskripsi: 'Kampung heritage estetik, tiket 5k + free postcard',
+      },
+      {
+        kategori: 'Wisata',
+        nama: 'Tumpak Sewu',
+        alamat: 'Pronojiwo, Lumajang',
+        harga: '40k',
+        deskripsi: 'Air terjun eksotis dengan pemandangan spektakuler',
+      },
+    ],
   },
   {
     kota: 'Maluku',
-    data: [],
+    data: [
+      {
+        kategori: 'Kuliner/Hangout',
+        nama: 'Cafe Kayu Manies',
+        alamat: 'Jl. Sam Ratulangi No.125, Maluku',
+        harga: '50k – 100k',
+        deskripsi: 'Cafe dengan interior kayu, suasana hangat, buka sampai tengah malam',
+      },
+      {
+        kategori: 'Kuliner/Hangout',
+        nama: 'Lateri Beach Restaurant',
+        alamat: 'Jl. Wolter Mongensidi No. 5, Ambon',
+        harga: '50k – 250k',
+        deskripsi: 'Restoran seafood dengan view pantai Lateri, cocok untuk sunset dinner romantis',
+      },
+      {
+        kategori: 'Wisata',
+        nama: 'Pulau Dodola',
+        alamat: 'Morotai, Maluku Utara',
+        harga: 'Gratis',
+        deskripsi: 'Pulau eksotis dengan pasir putih yang menghubungkan dua pulau saat air surut',
+      },
+      {
+        kategori: 'Wisata',
+        nama: 'Goa Hawang',
+        alamat: 'Desa Hukurila, Ambon',
+        harga: 'Gratis',
+        deskripsi: 'Goa alami dengan kolam air jernih, cocok untuk berenang dan eksplorasi alam'
+      },
+    ],
   },
   {
     kota: 'Bali',
