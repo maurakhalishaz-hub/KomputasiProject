@@ -133,7 +133,6 @@ function DestinationTable({ kota, data }) {
                 <td colSpan={5} className="px-6 py-8 text-center text-gray-500">
                   <div className="flex flex-col items-center gap-2">
                     <MapPin size={32} className="text-gray-400" />
-                    <p>Data destination untuk {kota} sedang dipersiapkan</p>
                   </div>
                 </td>
               </tr>
