@@ -135,10 +135,11 @@ function DestinationTable({ kota, data }) {
               data.map((item, index) => (
                 <tr key={index} className="border-b border-gray-200 hover:bg-gray-50 transition-colors">
                   <td className="px-6 py-4">{kota}</td>
+                  <td className="px-6 py-4">{item.kategori}</td>
                   <td className="px-6 py-4">{item.nama}</td>
                   <td className="px-6 py-4">{item.alamat}</td>
                   <td className="px-6 py-4">{item.harga}</td>
-                  <td className="px-6 py-4">{item.jam}</td>
+                  <td className="px-6 py-4">{item.deskripsi}</td>
                 </tr>
               ))
             )}
