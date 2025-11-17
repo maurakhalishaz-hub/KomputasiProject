@@ -1,10 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useRef } from 'react';
+
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import CityCards from './components/CityCards';
 import TopListTable from './components/TopListTable';
 import FeatureSection from './components/FeatureSection';
 import Footer from './components/Footer';
+
 import Maluku from './pages/Maluku';
 import Bali from './pages/Bali';
 import Bandung from './pages/Bandung';
