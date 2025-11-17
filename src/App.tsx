@@ -11,12 +11,20 @@ import Bandung from './pages/Bandung';
 import Malang from './pages/Malang';
 
 function Home() {
+  const topListRef = useRef<HTMLDivElement>(null);
+
+  const handleExploreClick = () => {
+    topListRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <HeroSection />
+      <HeroSection onExploreClick={handleExploreClick} />
       <CityCards />
-      <TopListTable />
+      <div ref={topListRef}>
+        <TopListTable />
+      </div>
       <FeatureSection />
       <Footer />
     </div>
