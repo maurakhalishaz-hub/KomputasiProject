@@ -110,9 +110,11 @@ function DestinationTable({ kota, data }) {
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-12">
       {/* Nama kota di atas tabel */}
-      <div className="px-6 py-4 border-b border-gray-200 bg-gray-100">
-        <h3 className="text-xl font-bold text-gray-800 font-poppins">{kota}</h3>
-      </div>
+      <div className="px-6 py-6 border-b border-gray-200 bg-gray-100 text-center">
+  <h3 className="text-2xl font-bold text-burnt-cocoa uppercase tracking-wide font-poppins">
+    {kota}
+  </h3>
+</div>
       
       <div className="overflow-x-auto">
         <table className="w-full">
