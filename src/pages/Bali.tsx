@@ -14,23 +14,23 @@ interface Location {
 
 const foodAndHangout: Location[] = [
   {
-    id: 
-    name: 
-    address: 
-    mapsLink: 
-    description: 
-    image: '
+    id: 1,
+    name: 'Data Akan Segera Hadir',
+    address: 'Data Akan Segera Hadir',
+    mapsLink: 'Data Akan Segera Hadir',
+    description: 'Data Akan Segera Hadir',
+    image: 'https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/fw83dtdtod4ha7ne6ivi.jpg',
   },
 ];
 
 const touristAttractions: Location[] = [
   {
-    id: 
-    name: 
-    address: 
-    mapsLink: 
-    description: 
-    image: '
+    id: 1,
+    name: 'Data Akan Segera Hadir',
+    address: 'Data Akan Segera Hadir',
+    mapsLink: 'Data Akan Segera Hadir',
+    description: 'Data Akan Segera Hadir',
+    image: 'https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/fw83dtdtod4ha7ne6ivi.jpg',
   },
 ];
 
