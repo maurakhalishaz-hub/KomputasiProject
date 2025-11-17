@@ -111,7 +111,7 @@ function DestinationTable({ kota, data }) {
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-12">
       {/* Nama kota di atas tabel */}
       <div className="px-6 py-6 border-b border-gray-200 bg-gray-100 text-center">
-  <h3 className="text-2xl font-bold text-#6C4332 uppercase tracking-wide font-poppins">
+  <h3 className="text-2xl font-bold text-[#6C4332] uppercase tracking-wide font-poppins">
     {kota}
   </h3>
 </div>
