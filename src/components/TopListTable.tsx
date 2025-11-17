@@ -113,7 +113,6 @@ function DestinationTable({ kota, data }) {
         <table className="w-full">
           <thead>
             <tr className="burnt-cocoa-bg text-white">
-              <th className="px-6 py-4 text-left font-semibold">Kota</th>
               <th className="px-6 py-4 text-left font-semibold">Kategori</th>
               <th className="px-6 py-4 text-left font-semibold">Nama Lokasi</th>
               <th className="px-6 py-4 text-left font-semibold">Alamat</th>
