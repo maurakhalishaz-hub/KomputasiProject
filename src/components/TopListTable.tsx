@@ -30,7 +30,7 @@ const tableData = [
         nama: 'Farm House Susu Lembang',
         alamat: 'Jl. Raya Lembang No.108, Lembang, Bandung',
         harga: '35k',
-        deskripsi: 'Taman wisata bernuansa pedesaan Eropa dengan aneka spot foto unik"
+        deskripsi: 'Taman wisata bernuansa pedesaan Eropa dengan aneka spot foto unik'
       },
     ],
   },
