@@ -27,10 +27,11 @@ function DestinationTable({ kota, data }) {
           <thead>
             <tr className="burnt-cocoa-bg text-white">
               <th className="px-6 py-4 text-left font-semibold">Kota</th>
-              <th className="px-6 py-4 text-left font-semibold">Nama Tempat</th>
+              <th className="px-6 py-4 text-left font-semibold">Kategori</th>
+              <th className="px-6 py-4 text-left font-semibold">Nama Lokasi</th>
               <th className="px-6 py-4 text-left font-semibold">Alamat</th>
               <th className="px-6 py-4 text-left font-semibold">Range Harga</th>
-              <th className="px-6 py-4 text-left font-semibold">Waktu Operasional</th>
+              <th className="px-6 py-4 text-left font-semibold">Deskripsi</th>
             </tr>
           </thead>
           <tbody>
