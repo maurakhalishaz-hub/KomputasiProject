@@ -146,18 +146,6 @@ function DestinationTable({ kota, data }) {
                   <td className="px-6 py-4">{item.harga}</td>
                   <td className="px-6 py-4">{item.deskripsi}</td>
                 </tr>
-              ))
-            )}
-          </tbody>
-        </table>
-      </div>
-      <div className="bg-blue-50 border-t border-gray-200 px-6 py-4">
-        <p className="text-sm text-gray-600">
-          Tabel {kota} akan diisi dengan data destination terpopuler. Informasi termasuk lokasi, harga tiket, dan jam operasional.
-        </p>
-      </div>
-    </div>
-  );
 }
 
 export default function TopListTable() {
