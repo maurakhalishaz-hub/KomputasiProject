@@ -125,6 +125,38 @@ function DestinationTable({ kota, data }) {
               <th className="px-6 py-4 text-left font-semibold">Alamat</th>
               <th className="px-6 py-4 text-left font-semibold">Range Harga</th>
               <th className="px-6 py-4 text-left font-semibold">Deskripsi</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.length === 0 ? (
+              <tr className="border-b border-gray-200 hover:bg-gray-50 transition-colors">
+                <td colSpan={5} className="px-6 py-8 text-center text-gray-500">
+                  <div className="flex flex-col items-center gap-2">
+                    <MapPin size={32} className="text-gray-400" />
+                    <p>Data destination untuk {kota} sedang dipersiapkan</p>
+                  </div>
+                </td>
+              </tr>
+            ) : (
+              data.map((item, index) => (
+                <tr key={index} className="border-b border-gray-200 hover:bg-gray-50 transition-colors">
+                  <td className="px-6 py-4">{item.kategori}</td>
+                  <td className="px-6 py-4">{item.nama}</td>
+                  <td className="px-6 py-4">{item.alamat}</td>
+                  <td className="px-6 py-4">{item.harga}</td>
+                  <td className="px-6 py-4">{item.deskripsi}</td>
+                </tr>
+              ))
+            )}
+          </tbody>
+        </table>
+      </div>
+      <div className="bg-blue-50 border-t border-gray-200 px-6 py-4">
+        <p className="text-sm text-gray-600">
+          Tabel {kota} akan diisi dengan data destination terpopuler. Informasi termasuk lokasi, harga tiket, dan jam operasional.
+        </p>
+      </div>
+    </div>
   );
 }
 
