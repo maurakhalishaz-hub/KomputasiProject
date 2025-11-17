@@ -146,6 +146,7 @@ function DestinationTable({ kota, data }) {
                   <td className="px-6 py-4">{item.harga}</td>
                   <td className="px-6 py-4">{item.deskripsi}</td>
                 </tr>
+ );
 }
 
 export default function TopListTable() {
