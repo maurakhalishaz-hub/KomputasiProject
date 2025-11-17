@@ -15,23 +15,62 @@ interface Location {
 const foodAndHangout: Location[] = [
   {
     id: 1,
-    name: 'Wailela Cafe and Resto',
-    address: 'Rumah Tiga, Ambon',
-    mapsLink: 'https://maps.app.goo.gl/nx4Rgcr4EHxJRz9v5',
-    description: 'Cafe & resto populer dengan menu lokal dan suasana hangat, buka hingga malam.',
-    image: 'https://wailelacafeandrestoambon.shop/public/media/wailelacafeandrestoambon-shop/4.jpg',
+    name: 'Nasi Lemak Jasa Ayah',
+    address: 'Jl. Cokroaminoto, Klojen, Kec. Klojen, Kota Malang, Jawa Timur 65111,
+    mapsLink: ' https://maps.app.goo.gl/pR8Cma3g5DqZUwL97',
+    description: 'Nasi Lemak khas Malaysia dengan pilihan lauk yang beragam, start from 12k.',
+    image: 'https://tse3.mm.bing.net/th/id/OIP.tLIx8FQobRAxSpoyacywEgHaFr?pid=Api&P=0&h=180',
+  },
+  {
+    id: 2,
+    name: 'Pasar Klojen”',
+    address: 'Jl. Cokroaminoto, Klojen, Kec. Klojen, Kota Malang, Jawa Timur 65111',
+    mapsLink: ' https://maps.app.goo.gl/ZBpzxymUdrRi2MN87',
+    description: 'Kuliner berbagai macam dari jajanan pasar hingga makan berat ada disini.',
+    image: ' https://tse4.mm.bing.net/th/id/OIP.ZZF1YXNOkZekn_jvHzexJgHaE8?pid=Api&P=0&h=180',
+  },
+  {
+    id: 3,
+    name: 'Bakso Cah Toha',
+    address: ' Jl. Semeru No.24, Oro-oro Dowo, Kec. Klojen, Kota Malang, Jawa Timur 65126',
+    mapsLink: ' https://maps.app.goo.gl/3ppFvfhbX6pR453e6',
+    description: 'Bakso khas malang yang legendaris dengan layanan self service.',
+    image: ' https://tse3.mm.bing.net/th/id/OIP.FA-ByLEWnYE38LFwFqQaKwHaJQ?pid=Api&P=0&h=180',
   },
 ];
 
 const touristAttractions: Location[] = [
   {
     id: 1,
-    name: 'Pantai Natsepa',
-    address: 'Suli, Maluku Tengah',
-    mapsLink: 'https://maps.app.goo.gl/Ho9bZbpo6cs2Q1qk6',
-    description: 'Pantai pasir putih terkenal dengan rujak Natsepa, cocok untuk liburan keluarga.',
-    image: 'https://cdn.antaranews.com/cache/1200x800/2016/07/20160707Pantai_Natsepa.jpg',
-  
+    name: 'VIP:Virtual Immersive Park',
+    address: ' Jl. Jatim Park II, Temas, Kec. Batu, Kota Batu, Jawa Timur 65315',
+    mapsLink: ' https://maps.app.goo.gl/XoM3ajS4Leb3FjrCA',
+    description: 'Wahan baru di Jatim Park 2 yang menawarkan konsep dunia virtual .',
+    image: ' https://tse3.mm.bing.net/th/id/OIP.b_5yzsIsoNanb8A3JhCG3gHaE8?pid=Api&P=0&h=180',
+  },
+  {
+    id: 2,
+    name: 'Kajoetangan Heritage',
+    address: ' Jl. Jenderal Basuki Rachmad Gg.4, Kauman, Kec. Klojen, Kota Malang, Jawa Timuer 65119',
+    mapsLink: ' https://maps.app.goo.gl/YwN7V3MPGVV6qdnp6',
+    description: 'Perkampungan di tengah Kota Malang yang aestetik dan instagramable. Tiket masuk 5k/orang dan free postcard',
+    image: ' https://tse2.mm.bing.net/th/id/OIP.ZGXzKmK4fQi7W4LgKF_K-gHaJ4?pid=Api&P=0&h=180',
+  },
+  {
+    id: 3,
+    name: 'Kampung Warna Warni',
+    address: ' Jl. Ir. H. Juanda No.RT.7, RT.09/RW.2, Jodipan, Kec. Blimbing, Kota Malang, Jawa Timur 65127',
+    mapsLink: ' https://maps.app.goo.gl/29wADXLZFFDLw67R7',
+    description: 'Salah satu ikon wisata Kota Malang dengan ciri khas bangun yang berwana warni. Tiket masuk 5k/orang',
+    image: ' https://i.pinimg.com/736x/e6/09/4f/e6094fb00e0ce5048f10587a8ba03cca.jpg',
+  },
+  {
+    id: 4,
+    name: 'Tumpak Sewu',
+    address: ' Jl. Raya Dampit-Lumajang, Besukcukit, Sidomulyo, Kec. Pronojiwo, Kabupaten Lumajang, Jawa Timur 67374',
+    mapsLink: ' https://maps.app.goo.gl/n6MkQbhWmTcnKPEt9',
+    description: 'Air terjun eksotis untuk para penyuka alam. Tiket masuk 40k/orang.',
+    image: ' https://tse1.mm.bing.net/th/id/OIP.kQDElIpjp8j7U67vBWtWZgHaE8?pid=Api&P=0&h=180',
   },
 ];
 
@@ -102,7 +141,7 @@ export default function Malang() {
           <div className="relative z-10 text-center text-white">
             <p className="text-lg md:text-xl font-medium mb-2">Jelajahi Keindahan</p>
             <h1 className="text-5xl md:text-6xl font-bold mb-4">Malang</h1>
-            <p className="text-lg md:text-xl max-w-2xl mx-auto px-4">Pulau Rempah dengan Keindahan Laut yang Memukau</p>
+            <p className="text-lg md:text-xl max-w-2xl mx-auto px-4">Kota Apel dengan Pesona Gunung yang Menawan</p>
           </div>
         </div>
       </div>
@@ -115,7 +154,7 @@ export default function Malang() {
               Rekomendasi Tempat Makan & Hangout
             </h2>
             <p className="text-gray-600 text-lg">
-              Cari tempat terbaik untuk menikmati kuliner lokal dan bersantai dengan suasana yang nyaman di Malang.
+              Nikmati berbagai kuliner otentik dan temukan spot santai dengan atmosfer nyaman yang membuat waktumu di Malang makin seru.
             </p>
           </div>
 
@@ -135,7 +174,7 @@ export default function Malang() {
               Rekomendasi Tempat Wisata
             </h2>
             <p className="text-gray-600 text-lg">
-              Jangan lewatkan destinasi wisata paling populer dan menakjubkan di Malang dengan keindahan alam yang tak terlupakan.
+              Kunjungi berbagai tempat wisata yang menakjubkan dan nikmati panorama alam Malang yang menggabungkan ketenangan dan keindahan.
             </p>
           </div>
 
