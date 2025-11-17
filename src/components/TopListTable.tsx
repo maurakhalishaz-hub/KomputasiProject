@@ -17,10 +17,6 @@ const tableData = [
     kota: 'Bali',
     data: [],
   },
-  {
-    kota: 'Jakarta',
-    data: [],
-  },
 ];
 
 function DestinationTable({ kota, data }) {
