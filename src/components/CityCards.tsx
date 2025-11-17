@@ -17,13 +17,13 @@ const cities = [
     id: 3,
     name: 'Maluku',
     description: 'Spice Islands Paradise',
-    image: 'https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/1b/b6/2a/gorango-cape-morotai.jpg?w=1200&h=-1&s=1',
   },
   {
     id: 4,
     name: 'Bali',
     description: 'Island of Gods and Culture',
-    image: 'https://images.pexels.com/photos/1619798/pexels-photo-1619798.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://media-cdn.tripadvisor.com/media/photo-m/1280/2a/c7/90/94/caption.jpg',
   },
 ];
 
