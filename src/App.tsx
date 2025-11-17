@@ -1,3 +1,15 @@
+import { useState } from 'react';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import CityCards from './components/CityCards';
+import TopListTable from './components/TopListTable';
+import FeatureSection from './components/FeatureSection';
+import Footer from './components/Footer';
+import Maluku from './pages/Maluku';
+import Bali from './pages/Bali';
+import Bandung from './pages/Bandung';
+import Malang from './pages/Malang';
+
 function App() {
   const [currentPage, setCurrentPage] = useState<'home' | 'bandung' | 'malang' | 'maluku' | 'bali'>('home');
 
@@ -6,6 +18,7 @@ function App() {
   if (currentPage === 'bali') return <Bali />;
   if (currentPage === 'bandung') return <Bandung />;
 
+  // Ini return utama untuk halaman home
   return (
     <div className="min-h-screen bg-white">
       <Header />
