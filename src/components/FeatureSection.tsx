@@ -57,7 +57,7 @@ export default function FeatureSection() {
 
           <div className="relative">
             <img
-              src="https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://www.rajaampat.indonesia-tourism.com/images/rajaampat.jpg"
               alt="Indonesia Experience"
               className="rounded-2xl shadow-xl w-full h-[500px] object-cover"
             />
