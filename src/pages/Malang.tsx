@@ -16,7 +16,7 @@ const foodAndHangout: Location[] = [
   {
     id: 1,
     name: 'Nasi Lemak Jasa Ayah',
-    address: 'Jl. Cokroaminoto, Klojen, Kec. Klojen, Kota Malang, Jawa Timur 65111,
+    address: 'Jl. Cokroaminoto, Klojen, Kec. Klojen, Kota Malang, Jawa Timur 65111',
     mapsLink: ' https://maps.app.goo.gl/pR8Cma3g5DqZUwL97',
     description: 'Nasi Lemak khas Malaysia dengan pilihan lauk yang beragam, start from 12k.',
     image: 'https://tse3.mm.bing.net/th/id/OIP.tLIx8FQobRAxSpoyacywEgHaFr?pid=Api&P=0&h=180',
