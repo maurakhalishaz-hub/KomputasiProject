@@ -1,6 +1,10 @@
 import { ArrowRight } from 'lucide-react';
 
-export default function HeroSection() {
+type Props = {
+  onExploreClick: () => void;
+};
+
+export default function HeroSection({ onExploreClick }: Props) {
   return (
     <section id="home" className="relative w-full h-screen flex items-center justify-center overflow-hidden pt-16">
       <div
@@ -23,7 +27,10 @@ export default function HeroSection() {
             Explore the most beautiful and iconic destinations across Indonesia. From pristine beaches to ancient temples and majestic mountains.
           </p>
 
-          <button className="inline-flex items-center gap-2 burnt-cocoa-bg px-8 py-4 rounded-full font-semibold hover:opacity-90 transition-all transform hover:scale-105 text-white">
+          <button
+            onClick={onExploreClick}
+            className="inline-flex items-center gap-2 burnt-cocoa-bg px-8 py-4 rounded-full font-semibold hover:opacity-90 transition-all transform hover:scale-105 text-white"
+          >
             Explore Now
             <ArrowRight size={20} />
           </button>
