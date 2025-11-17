@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Menu, X, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,11 +17,11 @@ export default function Header() {
           </div>
 
           <nav className="hidden md:flex gap-8">
-            <a href="#home" className="hover:burnt-cocoa transition-colors text-gray-700">Home</a>
-            <a href="#Bandung" className="hover:burnt-cocoa transition-colors text-gray-700">Bandung</a>
-            <a href="#Malang" className="hover:burnt-cocoa transition-colors text-gray-700">Malang</a>
-            <a href="#Maluku" className="hover:burnt-cocoa transition-colors text-gray-700">Maluku</a>
-           <a href="#Bali" className="hover:burnt-cocoa transition-colors text-gray-700">Bali</a> 
+            <Link to="/" className="hover:burnt-cocoa transition-colors text-gray-700">Home</Link>
+            <Link to="/bandung" className="hover:burnt-cocoa transition-colors text-gray-700">Bandung</Link>
+            <Link to="/malang" className="hover:burnt-cocoa transition-colors text-gray-700">Malang</Link>
+            <Link to="/maluku" className="hover:burnt-cocoa transition-colors text-gray-700">Maluku</Link>
+            <Link to="/bali" className="hover:burnt-cocoa transition-colors text-gray-700">Bali</Link>
           </nav>
 
           <button
@@ -33,11 +34,11 @@ export default function Header() {
 
         {isOpen && (
           <nav className="md:hidden pb-4 flex flex-col gap-2">
-            <a href="#home" className="py-2 px-4 hover:bg-gray-100 rounded transition-colors">Home</a>
-            <a href="#Bandung" className="py-2 px-4 hover:bg-gray-100 rounded transition-colors">Bandung</a>
-            <a href="#Malang" className="py-2 px-4 hover:bg-gray-100 rounded transition-colors">Malang</a>
-            <a href="#Maluku" className="py-2 px-4 hover:bg-gray-100 rounded transition-colors">Maluku</a>
-            <a href="#Bali" className="py-2 px-4 hover:bg-gray-100 rounded transition-colors">Bali</a>
+            <Link to="/" className="py-2 px-4 hover:bg-gray-100 rounded transition-colors">Home</Link>
+            <Link to="/bandung" className="py-2 px-4 hover:bg-gray-100 rounded transition-colors">Bandung</Link>
+            <Link to="/malang" className="py-2 px-4 hover:bg-gray-100 rounded transition-colors">Malang</Link>
+            <Link to="/maluku" className="py-2 px-4 hover:bg-gray-100 rounded transition-colors">Maluku</Link>
+            <Link to="/bali" className="py-2 px-4 hover:bg-gray-100 rounded transition-colors">Bali</Link>
           </nav>
         )}
       </div>
